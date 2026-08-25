@@ -2,7 +2,7 @@
 
 Welcome to the RetailWorks Data Warehouse and Analytics Project! 🚀 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights — built entirely on Databricks Free Edition using PySpark and Delta Lake, so no cloud account is required. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics, going a step further than the classic SQL Server version by including SCD Type 2 history tracking.
 
-🏗️** Data Architecture**
+🏗️ **Data Architecture**
 
 This project follows the Medallion Architecture — Bronze, Silver, and Gold layers:
 - Source Systems (CRM, ERP, Orders)
