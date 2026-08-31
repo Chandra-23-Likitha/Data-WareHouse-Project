@@ -78,9 +78,9 @@ This project follows the Medallion Architecture — Bronze, Silver, and Gold lay
 - │   ├── 02_bronze_ingestion.py           # Autoloader incremental ingestion into Bronze
 - │   ├── 03_silver_transform.py           # Cleansing and standardization into Silver
 - │   ├── 04_gold_dim_customer_scd2.py     # DimCustomer build with SCD Type 2
-- │   ├── 05_gold_dim_product.py           # DimProduct build with SCD Type 1
-- │   ├── 06_gold_dim_date.py              # DimDate build
-- │   ├── 07_gold_fact_sales.py            # FactSales build (Star Schema grain: one row per order line)
+- │   ├── 04_gold_dim_product.py           # DimProduct build with SCD Type 1
+- │   ├── 04_gold_dim_date.py              # DimDate build
+- │   ├── 04_gold_fact_sales.py            # FactSales build (Star Schema grain: one row per order line)
 - │
 - ├── tests/                                # Data quality and validation scripts
 - │   └── data_quality_checks.py           # Referential integrity & completeness checks
